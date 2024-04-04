@@ -1,0 +1,60 @@
+/*background of the fistscene*/
+.anchor-pane {
+    -fx-background-color: #8dace3;
+    -fx-background-image: url(images/meal.png);
+}
+#searchField {
+    -fx-background-color: #ffffff;
+    -fx-border-color:#091b98;
+    -fx-border-radius:5px;
+    -fx-font-size: 11pt;
+}
+
+.titleLabel{
+    -fx-font-size: 23px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #091970;
+    -fx-font-family: Sarabun;
+}
+
+#searchButton{
+    -fx-font-size: 12pt;
+    -fx-text-fill: white;
+    -fx-background-color: #4475a8;
+    -fx-pref-width: 120px;
+    -fx-border-radius: 5px;
+}
+#mealList {
+    -fx-background-color: #fff;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5px;
+}
+/*set style for second scene*/
+
+#mealDetailsPane{
+    -fx-background:
+            linear-gradient(to bottom, rgb(141, 172, 227) 0%, rgb(84, 127, 224) 35%),
+            linear-gradient(to bottom, rgb(16, 108, 180) 100%);}
+
+#mealNameLabel {
+    -fx-font-size: 20pt;
+    -fx-text-fill: #091970;
+    -fx-font-weight: bold;
+
+}
+#areaLabel,ingredientLabel,#categoryLabel {
+    -fx-font-size: 10pt;
+    -fx-text-fill: #0b1341;
+}
+#instructionsLabel{
+    -fx-font-size: 11pt;
+    -fx-text-fill: #091970;
+}
+#backButton{
+    -fx-font-size: 12pt;
+    -fx-text-fill: white;
+    -fx-background-color: #0f1964;
+    -fx-pref-width: 100px;
+    -fx-border-radius: 5px;
+}
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Label?>
+<!--set the box for showing the title and search box-->
+<AnchorPane styleClass="anchor-pane" prefHeight="500.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mealapp.MealController">
+    <Label text="What's would you like today? 🍜" layoutX="150.0" layoutY="10.0" styleClass="titleLabel" alignment="CENTER" />
+    <TextField fx:id="searchField" layoutX="24.0" layoutY="60.0" prefHeight="25.0" prefWidth="200.0" promptText="Enter a letter/name" />
+    <Button fx:id="searchButton" layoutX="232.0" layoutY="60.0" text="Get Meal Info" onAction="#onSearchClicked"/>
+<!--add 1 button to search the meal-->
+    <ListView fx:id="mealList" layoutX="24.0" layoutY="130.0" prefHeight="300.0" prefWidth="550.0"  visible="false"/>
+<!--using list for list all the menu that relevant-->
+</AnchorPane>
